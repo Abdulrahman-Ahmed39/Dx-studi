@@ -6,12 +6,7 @@
 }
 
 body{ 
-  background: url(1624.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 100vh;
+  background-color: #2C3E50;
 }
 
 #header{
@@ -51,6 +46,16 @@ body{
 }
 
 #header .navigation li a:hover{
+  background: #fff;
+  color: #111;
+}
+
+#header .navigation li a:focus{
+  background: #fff;
+  color: #111;
+}
+
+#header .navigation li a::after{
   background: #fff;
   color: #111;
 }
